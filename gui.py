@@ -145,7 +145,7 @@ global_symbols = 'no symbols given'   #global variable that gets filled by retri
 global_show_inputs = False   #global bool to show or not show input symbols
  
 
-#gdf ='no data loaded'  #global data frame
+#gdf ='no data loaded'  #global data frame.
 gdf = pd.read_pickle('gdf.pkl')[:4000]
 
 #cdf = pd.DataFrame(None) #corrected dataframe
